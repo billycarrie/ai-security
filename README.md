@@ -38,9 +38,8 @@ Companies are increasing their use of Retrieval-Augmented Generation (RAG) to po
  
 **Scan summary: 1 blocked, 2 redacted, 2 passed**
  
-```
 ---
- 
+
 ## OWASP LLM Top 10 Controls
  
 | OWASP Risk | Description | Control in This Project |
