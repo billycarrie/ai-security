@@ -47,3 +47,11 @@ Companies are increasing their use of Retrieval-Augmented Generation (RAG) to po
 |---|---|---|
 | LLM01 - Prompt Injection | Attacker embeds instructions inside retrieved content to hijack model behavior | Injection pattern detection in `scanner.py` blocks the entire document before it reaches the model context |
 | LLM06 - Sensitive Information Disclosure | Model outputs PII sourced from retrieved documents | Regex-based PII detection redacts SSNs, emails, salaries, phone numbers, and EINs before the prompt is built |
+
+---
+
+## **Author**
+
+**Billy Carrie** — IAM Engineer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/billycarrie/)
