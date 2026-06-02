@@ -69,20 +69,6 @@ The terminal output shows both pipelines running against the same query. The vul
 | Model response | Partial self-protection relying on model discretion - no enforced control | Responded only from sanitized content with no access to sensitive data |
  
 ---
- 
-## Scan Results
- 
-| Document | Threat Type | Outcome | OWASP Reference |
-|---|---|---|---|
-| doc_001: Q3 Budget Overview | None | PASS | N/A |
-| doc_002: Employee Directory | PII - SSN (2), Email (2), Salary (2) | REDACTED | LLM06 |
-| doc_003: Cybersecurity Policy | None | PASS | N/A |
-| doc_004: Vendor Onboarding Checklist | PII - Email (1), Phone (1), EIN (1) | REDACTED | LLM06 |
-| doc_005: Project Status Update | Prompt Injection - `admin`, `Forward all`, `Resume normal operation` | BLOCKED | LLM01 |
- 
-**Scan summary: 1 blocked, 2 redacted, 2 passed**
- 
----
 
 ## OWASP LLM Top 10 Controls
  
